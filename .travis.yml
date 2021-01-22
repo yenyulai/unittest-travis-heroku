@@ -8,7 +8,8 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: {PUT_YOUR_OWN_API_KEY_HERE}
-  app: tranquil-atoll-64381
+    secure: J8miC3UkaFji7nT7687FkkoExO6+WUKgoqMu59e5QEaqdLA8cQypAY08hy8gSC5btHds5CL7WT7QfD0LV54mJ4kaSHqQhVnfxRcDAO6qPM/7QqkQ6EeKN7Cubstw1Lv6rmfecY3J15Kp26MtQQbjHjP38wu7YnzbYmPUaUCP09Z/mlfDzLgTmjJ6Oq5S4bXF77ielzC5Lw+rXd3aFe1EkqvbFUcilHtlqjtRKaN80/Jbxnne0rgBsYJV2ErttOpB02llWcZLV1tLF2rj+ZlOAH3NYoRDPmezVDwZhWj3S8d3AoNI85pEajqHS7LAN4d9qddjn63USASjmj64ixO6cKI3LgnCfQJ2cK0iEipPwsNVGDp03+/UIbXHLtDvnhhcyBn0UfPJyQBhQV0spKjcAgNrGEF2F723rgCcrE74ph2VY97Hxed5cx/8MkZvxCffns3BEvuq7K4EVlcXcpcvYHSN28ZyZEFb9UNZtfmZxkbqtFchIrV3rDanKBv0YtkvpQpzfXajFpwJdW1uLc21e0KOzh9z/Zo5Xxl+QLNUqeJ27WsXxTnqnk935FVRNb8OUBfrHQg+eINTxF5H2pemYRq9rWPDcdGUuWHSByfJhDHQIz+SKhrDtydBsrnOd8jXnDFQm/7MHdGEABCV0LDVQBoEq5CL28ThGiRYbY4JVmI=
+  app: guarded-coast-89728
   on:
     repo: yenyulai/unittest-travis-heroku
+  skip_cleanup: 'true'
